@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { PickAdressPage } from './pick-adress';
+import { PickAddressPage } from './pick-adress';
 
 @NgModule({
   declarations: [
-    PickAdressPage,
+    PickAddressPage,
   ],
   imports: [
-    IonicPageModule.forChild(PickAdressPage),
+    IonicPageModule.forChild(PickAddressPage),
   ],
 })
 export class PickAdressPageModule {}
